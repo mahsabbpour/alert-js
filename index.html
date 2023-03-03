@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/master.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+
+    <div class="container-fluid container-xxl">
+        <div class="row body mt-5">
+            <ul class=" col-10 d-flex flex-wrap justify-content-center align-content-between">
+
+                <li class="col-10 mt-2 row align-items-center">
+
+                    <div class="row col-11 h-100 align-items-center px-0 mx-0">
+                        <span class="col-1 h5 flex justify-content-center align-items-center check">
+                            <i class="bi bi-check-circle col-6"></i></span>
+                        <h6 class="col-11"> Well done! You successfullyread this important.</h6>
+                    </div>
+
+                    <span onclick="_close(this)" class=" col-1 h5 bix">
+                        <i class="bi bi-x"></i>
+                    </span>
+
+
+
+                </li>
+                <!-- *********** -->
+                <li class="col-10 mt-2 row align-items-center">
+
+                    <div class="row col-11 h-100 align-items-center px-0 mx-0">
+                        <span class="col-1 h5 flex justify-content-center align-items-center help">
+                            <i class="bi bi-info-circle col-6"></i></span>
+                        <h6 class="col-11"> Heads up! This alert needs your attention, but it's not super important.
+                        </h6>
+                    </div>
+
+                    <span onclick="_close(this)" class=" col-1 h5 bix">
+                        <i class="bi bi-x"></i>
+                    </span>
+
+
+
+                </li>
+                <!-- *********** -->
+                <li class="col-10 mt-2 row align-items-center">
+
+                    <div class="row col-11 h-100 align-items-center px-0 mx-0">
+                        <span class="col-1 h5 flex justify-content-center align-items-center bix">
+                            <i class="bi bi-exclamation-triangle col-6"></i></span>
+                        <h6 class="col-11"> Warning! Better check yourself, you're not looking too good.</h6>
+                    </div>
+
+                    <span onclick="_close(this)" class=" col-1 h5 bix">
+                        <i class="bi bi-x"></i>
+                    </span>
+
+
+
+                </li>
+                <!-- *********** -->
+                <li class="col-10 mt-2 row align-items-center">
+
+                    <div class="row col-11 h-100 align-items-center px-0 mx-0">
+                        <span class="col-1 h5 flex justify-content-center align-items-center check">
+                            <i class="bi bi-x-circle col-6"></i></span>
+                        <h6 class="col-11">Oh snap! Change a few things up and try submitting again.</h6>
+                    </div>
+
+                    <span onclick="_close(this)" class=" col-1 h5 bix">
+                        <i class="bi bi-x"></i>
+                    </span>
+
+
+
+                </li>
+                <!-- *********** -->
+                <li class="row px-0 mx-0 col-10 mt-2 align-items-center">
+
+                    <div class="row col-11 h-100 align-items-center px-0 mx-0">
+                        <span class="col-1 h5 flex justify-content-center align-items-center like">
+                            <i class="bi bi-hand-thumbs-up col-6"></i></span>
+                        <h6 class="col-11">Well done! You successfullyread this important.</h6>
+                    </div>
+
+                    <span onclick="_close(this)" class=" col-1 h5 bix">
+                        <i class="bi bi-x"></i>
+                    </span>
+
+
+                </li>
+                <!-- *********** -->
+
+
+
+
+            </ul>
+
+
+        </div>
+    </div>
+    <script>
+        let _li = document.getElementsByTagName(li)[i]
+        function _close(self) {
+            self.parentElement.style.opacity = '0'
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>
